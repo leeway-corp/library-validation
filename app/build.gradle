@@ -33,8 +33,8 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.leeway-corp.id-validation.id-validation:0.0.1'
-//    implementation project(':id-validation')
+//    implementation 'com.github.leeway-corp:library-validation:0.0.2'
+    implementation project(':id-validation')
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.5.0'

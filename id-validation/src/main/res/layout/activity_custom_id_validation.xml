@@ -457,6 +457,7 @@
         android:layout_height="50dp"
         android:background="@color/welcome_green"
         android:foreground="?attr/selectableItemBackground"
+        android:visibility="gone"
         tools:visibility="visible">
 
         <ImageView
