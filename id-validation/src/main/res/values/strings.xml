@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="id_validation">ID validation</string>
+    <string name="id_verification_desc">In order to obtain a Medyear Plus account, we must first verify your identity. Please provide the following information in order to proceed with the identity verification.</string>
+    <string name="driving_licence_or_state_id_front">Driving Licence or State ID front</string>
+    <string name="driving_licence_or_state_id_back">Driving License or State ID back (Optional)</string>
+    <string name="text_scan_front_id_card">Scan front side of your ID</string>
+    <string name="text_scan_back_id_card">Scan back side of your ID</string>
+    <string name="selfie_photo">Selfie Photo</string>
+    <string name="take_selfie">Take a selfie photo</string>
+    <string name="scan">Scan</string>
+    <string name="scanned">Scanned</string>
+    <string name="next">Next</string>
+
+    <string name="message_hold_your_id_card_front">Hold your ID card inside of the\nrectangle so we can scan the front.\nMake sure there is no glare</string>
+    <string name="message_hold_your_id_card_back">Hold your ID card inside of the\nrectangle so we can scan the back.\nMake sure there is no glare</string>
+    <string name="message_position_your_face">Position your face so that it fills up the oval, and smile for the camera</string>
+    <string name="successfully_scanned">Successfully scanned</string>
+    <string name="done">Done</string>
+
+
+    <string name="_1" translatable="false">1</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="_3" translatable="false">3</string>
+
+    <string name="loading">Loading…</string>
+    <string name="something_is_wrong">Something is wrong, please try again later!</string>
+    <string name="id_validation_success">ID validation is successful</string>
+    <string name="id_validation_failed">Sorry, we could not match your selfie with your ID or Driver License photos. Please try again.</string>
+
+</resources>

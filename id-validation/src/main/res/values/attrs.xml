@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomExpandContentLayout">
+        <attr name="ce_scanned" format="integer"/>
+        <attr name="ce_not_scanned" format="integer"/>
+    </declare-styleable>
+</resources>

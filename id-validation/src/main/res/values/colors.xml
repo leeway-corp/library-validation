@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0073FF</color>
+
+    <color name="id_toolbar_color">#0073FF</color>
+
+    <color name="black_text_color">#333333</color>
+    <color name="welcome_green">#27ae60</color>
+    <color name="blue_button_color">#0073FF</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_text_color">#888888</color>
+    <color name="iconTint">#677582</color>
+    <color name="main_color_3">#0073FF</color>
+
+</resources>
