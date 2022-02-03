@@ -7,6 +7,7 @@ import android.transition.TransitionManager
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.SavedStateViewModelFactory
 import androidx.loader.app.LoaderManager
 import androidx.loader.content.Loader
 import com.medyear.idvalidation.AWSMatchLoader
@@ -22,7 +23,9 @@ import timber.log.Timber
 
 @Suppress("DEPRECATION", "FunctionName")
 class CustomIdValidationActivity : AppCompatActivity(), LoaderManager.LoaderCallbacks<Any> {
-    private val vm: IdValidationViewModel by viewModels()
+    private val vm: IdValidationViewModel by viewModels{
+        SavedStateViewModelFactory(application, this)
+    }
     private lateinit var binding: ActivityCustomIdValidationBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
