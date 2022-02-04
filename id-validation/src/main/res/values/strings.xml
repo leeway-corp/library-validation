@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="id_validation">ID validation</string>
-    <string name="id_verification_desc">In order to obtain a Medyear Plus account, we must first verify your identity. Please provide the following information in order to proceed with the identity verification.</string>
+    <string name="id_verification_desc">Please provide the following information in order to proceed with the identity verification.</string>
     <string name="driving_licence_or_state_id_front">Driving Licence or State ID front</string>
     <string name="driving_licence_or_state_id_back">Driving License or State ID back (Optional)</string>
     <string name="text_scan_front_id_card">Scan front side of your ID</string>

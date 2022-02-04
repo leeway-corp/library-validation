@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="id_validation">Validación de identidad</string>
+    <string name="id_verification_desc">Proporcione la siguiente información para proceder con la verificación de identidad.</string>
+    <string name="driving_licence_or_state_id_front">Carné de conducir o identificación estatal frente</string>
+    <string name="driving_licence_or_state_id_back">Licencia de conducir o identificación estatal de vuelta (Opcional)</string>
+    <string name="text_scan_front_id_card">Escanea el anverso de tu DNI</string>
+    <string name="text_scan_back_id_card">Escanea el reverso de tu identificación</string>
+    <string name="selfie_photo">Foto Selfie</string>
+    <string name="take_selfie">Tomar una foto autofoto</string>
+    <string name="scan">Escanear</string>
+    <string name="scanned">Escaneado</string>
+    <string name="next">Próximo</string>
+
+    <string name="message_hold_your_id_card_front">Sostenga su tarjeta de identificación dentro del rectángulo para que podamos escanear el frente. Asegúrese de que no haya deslumbramiento</string>
+    <string name="message_hold_your_id_card_back">Sostenga su tarjeta de identificación dentro del rectángulo para que podamos escanear la parte posterior. Asegúrese de que no haya deslumbramiento</string>
+    <string name="message_position_your_face">Coloca tu cara de modo que llene el óvalo y sonríe para la cámara.</string>
+    <string name="successfully_scanned">Escaneado con éxito</string>
+    <string name="done">Hecho</string>
+
+
+    <string name="_1" translatable="false">1</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="_3" translatable="false">3</string>
+
+    <string name="loading">Cargando…</string>
+    <string name="something_is_wrong">¡Algo está mal, inténtalo de nuevo más tarde!</string>
+    <string name="id_validation_success">La validación de ID es exitosa</string>
+    <string name="id_validation_failed">Lo sentimos, no pudimos hacer coincidir su selfie con sus fotos de identificación o licencia de conducir. Inténtalo de nuevo.</string>
+</resources>
