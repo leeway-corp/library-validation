@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.RectF
+import android.util.Log
 import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.ImageProxy
 import androidx.core.util.forEach
@@ -17,7 +18,10 @@ import java.io.IOException
 import java.util.concurrent.atomic.AtomicBoolean
 import kotlin.math.abs
 
-internal open class SelfieAnalyzer(private val context: Context, private val callback: AnalyzerCallback) :
+internal open class SelfieAnalyzer(
+    private val context: Context,
+    private val callback: AnalyzerCallback
+) :
     ImageAnalysis.Analyzer {
 
     private var isAnalyzing = AtomicBoolean(false)
@@ -49,8 +53,10 @@ internal open class SelfieAnalyzer(private val context: Context, private val cal
 
             faces.forEach() { _, face ->
                 if (!isCompleted.get() && face.isSmilingProbability * 100 > 10) {
-                    if (face.isFaceInLocation(bitmap)) {
-                        Timber.v("-------- face: detected")
+                    val isInLocation = face.isFaceInLocation(bitmap)
+                    Log.v("Selfie","--> isSmilingProbability: ${face.isSmilingProbability * 100}, isFaceInLocation: $isInLocation")
+                    if (isInLocation) {
+                        Log.v("Selfie","--> face: detected")
                         isCompleted.set(true)
                         callback.onAnalyzeSuccess()
                     }
@@ -77,6 +83,7 @@ internal open class SelfieAnalyzer(private val context: Context, private val cal
 
         val diffWidth = abs(b.width / 2 - rectF.centerX())
         val diffHeight = abs(b.height / 2 - rectF.centerY())
+        Log.v("Selfie","--> location: width: $diffWidth, height: $diffHeight")
         return (diffWidth > 0 && diffWidth < 20f) &&
                 diffHeight > 0 && diffHeight < 20f
     }
