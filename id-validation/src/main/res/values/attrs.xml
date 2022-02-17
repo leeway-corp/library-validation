@@ -3,5 +3,7 @@
     <declare-styleable name="CustomExpandContentLayout">
         <attr name="ce_scanned" format="integer"/>
         <attr name="ce_not_scanned" format="integer"/>
+        <attr name="ce_text_before_scan" format="reference"/>
+        <attr name="ce_text_after_scan" format="reference"/>
     </declare-styleable>
 </resources>

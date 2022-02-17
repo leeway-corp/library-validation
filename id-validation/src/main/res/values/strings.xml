@@ -10,6 +10,8 @@
     <string name="take_selfie">Take a selfie photo</string>
     <string name="scan">Scan</string>
     <string name="scanned">Scanned</string>
+    <string name="take_photo">Take photo</string>
+    <string name="taken_photo">Done</string>
     <string name="next">Next</string>
 
     <string name="message_hold_your_id_card_front">Hold your ID card inside of the\nrectangle so we can scan the front.\nMake sure there is no glare</string>

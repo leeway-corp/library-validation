@@ -155,7 +155,10 @@
                         android:orientation="vertical"
                         android:padding="@dimen/double_margin"
                         app:ce_not_scanned="@drawable/ic_id_image_front"
-                        app:ce_scanned="@drawable/ic_id_image_scanned">
+                        app:ce_scanned="@drawable/ic_id_image_scanned"
+                        app:ce_text_after_scan="@string/scanned"
+                        app:ce_text_before_scan="@string/scan"
+                        tools:visibility="gone">
 
                         <TextView
                             android:layout_width="match_parent"
@@ -179,9 +182,7 @@
                             android:layout_marginTop="@dimen/drawable_padding"
                             android:layout_marginBottom="@dimen/double_margin"
                             android:tag="centerButton"
-                            android:textColor="@color/white"
-                            tools:background="@drawable/rounded_white_bg_blue_borders"
-                            tools:text="@string/scan" />
+                            android:textColor="@color/white" />
 
                     </com.medyear.idvalidation.widget.CustomExpandContentLayout>
 
@@ -285,7 +286,9 @@
                         android:padding="@dimen/double_margin"
                         android:visibility="gone"
                         app:ce_not_scanned="@drawable/ic_id_image_back"
-                        app:ce_scanned="@drawable/ic_id_image_back">
+                        app:ce_scanned="@drawable/ic_id_image_back"
+                        app:ce_text_after_scan="@string/scanned"
+                        app:ce_text_before_scan="@string/scan">
 
                         <TextView
                             android:layout_width="match_parent"
@@ -309,9 +312,7 @@
                             android:layout_marginTop="@dimen/drawable_padding"
                             android:layout_marginBottom="@dimen/double_margin"
                             android:tag="centerButton"
-                            android:textColor="@color/white"
-                            tools:background="@drawable/rounded_white_bg_blue_borders"
-                            tools:text="@string/scan" />
+                            android:textColor="@color/white" />
 
                     </com.medyear.idvalidation.widget.CustomExpandContentLayout>
 
@@ -415,7 +416,10 @@
                         android:padding="@dimen/double_margin"
                         android:visibility="gone"
                         app:ce_not_scanned="@drawable/ic_selfie_image"
-                        app:ce_scanned="@drawable/ic_selfie_image_scanned">
+                        app:ce_scanned="@drawable/ic_selfie_image_scanned"
+                        app:ce_text_after_scan="@string/taken_photo"
+                        app:ce_text_before_scan="@string/take_photo"
+                        tools:visibility="visible">
 
                         <TextView
                             android:layout_width="match_parent"
@@ -439,13 +443,12 @@
                             android:layout_marginTop="@dimen/drawable_padding"
                             android:layout_marginBottom="@dimen/double_margin"
                             android:tag="centerButton"
-                            android:textColor="@color/white"
-                            tools:background="@drawable/rounded_white_bg_blue_borders"
-                            tools:text="@string/scan" />
+                            android:textColor="@color/white" />
 
                     </com.medyear.idvalidation.widget.CustomExpandContentLayout>
 
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>

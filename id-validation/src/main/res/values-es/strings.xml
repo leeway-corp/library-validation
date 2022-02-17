@@ -10,6 +10,8 @@
     <string name="take_selfie">Tomar una foto autofoto</string>
     <string name="scan">Escanear</string>
     <string name="scanned">Escaneado</string>
+    <string name="take_photo">Tomar foto</string>
+    <string name="taken_photo">Hecho</string>
     <string name="next">Próximo</string>
 
     <string name="message_hold_your_id_card_front">Sostenga su tarjeta de identificación dentro del rectángulo para que podamos escanear el frente. Asegúrese de que no haya deslumbramiento</string>
